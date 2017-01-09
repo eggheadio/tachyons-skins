@@ -84,6 +84,7 @@
  --dark-gray: #434b56;
  --gray: #646e7b;
  --light-gray: #d1d2d3;
+ --tag-gray: #f6f6f6;
  --yellow: #ffce51;
  --orange: #f59e33;
  --dark-orange: #df6941;
@@ -178,6 +179,7 @@
 .dark-gray { color: var(--dark-gray); }
 .gray { color: var(--gray); }
 .light-gray { color: var(--light-gray); }
+.tag-gray { color: var(--tag-gray); }
 .yellow { color: var(--yellow); }
 .orange { color: var(--orange); }
 .dark-orange { color: var(--dark-orange); }
@@ -261,6 +263,7 @@
 .bg-dark-gray { background-color: var(--dark-gray); }
 .bg-gray { background-color: var(--gray); }
 .bg-light-gray { background-color: var(--light-gray); }
+.bg-tag-gray { background-color: var(--tag-gray); }
 .bg-yellow { background-color: var(--yellow); }
 .bg-orange { background-color: var(--orange); }
 .bg-dark-orange { background-color: var(--dark-orange); }
