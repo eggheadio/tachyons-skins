@@ -50,23 +50,24 @@
   
   --white-secondary: #f8f8f8;
   
-  --base: #232c3b;
-  --base-secondary: #171e27;
+  --base: #21252d;
+  --base-secondary: #141618;
+  --base-light: #323439;
   
-  --gray: #f4f5f9;
+  --gray: #F4F7F9;
   --gray-secondary: #e2e3e7;
   
   --dark-gray: #63768d;
-  --dark-gray-secondary: #b0b6be;
+  --dark-gray-secondary: #B0B6BE;
   
-  --blue: #4786ff;
-  --blue-secondary: #386fda;
+  --blue: #316aff;
+  --blue-secondary: #2758b8;
   
   --dark-blue: #344055;
   --dark-blue-secondary: #273040;
   
-  --green: #59cd90;
-  --green-secondary: #409b6b;
+  --green: #409b6b;
+  --green-secondary: #36855b;
   
   --orange: #fd9126;
   --orange-secondary: #c97420;
@@ -135,6 +136,7 @@
 
 .base { color: var(--base); }
 .base-secondary { color: var(--base-secondary); }
+.base-light { color: var(--base-light); }
 
 .gray { color: var(--gray); }
 .gray-secondary { color: var(--gray-secondary); }
@@ -210,6 +212,7 @@
 
 .bg-base { background-color: var(--base); }
 .bg-base-secondary { background-color: var(--base-secondary); }
+.bg-base-light { background-color: var(--base-light); }
 
 .bg-gray { background-color: var(--gray); }
 .bg-gray-secondary { background-color: var(--gray-secondary); }
